@@ -1,31 +1,47 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 50px 0px 0px 0px;
     z-index: 0; 
+    background: #f8f9f9;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
+.row{
+    margin: 0 auto;
+    width: 80%;
+}
+.row-header{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 2em;
+}
 .navbar-dark{
     background-color: #718a93;
 }
 
-
-
 .jumbotron {
-    margin: 0px auto;
     padding: 70px 30px;
     background: #f8f9f9;
     color:  #374047;
 }
 
+#projects .card{
+    margin-top: 15px;
+    
+}
 
 main{
 
    
 }
 
-
 .footer 
 {
     background-color: #dee1e3;
-    margin: 0px auto;
-    padding: 20px 0px; 
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0 auto;
+    padding: 10px 0px; 
+    text-align: center;
 }
