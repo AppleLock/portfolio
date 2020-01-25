@@ -8,17 +8,21 @@
     <!-- added bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
     <!-- font awesome -->
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link id="regular" rel="stylesheet" href="css/styles.css">
+
+    
 
     <title>Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-md fixed-top" id="sideNav">
-            <a class="navbar-brand" href="#">Maxim Shnyrev</a>
+            <a class="navbar-brand" href="#">Maxim Shnyrev </a>
+            <button class="btnD" onclick="myFunction()"><i class="fa fa-moon-o"></i></button>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,7 +45,7 @@
         <div class="container">
          <div class="row row-header">
              <div class="col-12">
-                <p> Header for the people...Intro if you will</p>
+                <p> Web Developer, Game Developer, Quality Expert...</p>
              </div>
          </div>
         </div>
@@ -57,62 +61,63 @@
                     
                     <h1>About</h1>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nemo corrupti dolorem, quod pariatur laboriosam omnis quasi perferendis numquam quam incidunt, praesentium modi nesciunt odit molestias voluptatum maxime, asperiores deleniti fugit quae tenetur! Aut temporibus natus nostrum magnam repellendus laborum numquam animi illo similique fuga? Esse reiciendis excepturi numquam dolor?</p>
+                    <p>I'm an industry proven quality assurance expert who likes to create web and game apps.</p>
                     </div>
                 </div>
 
             <div id="projects">
+                <div class=row>
+                    <div class="col-12">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card" style="width: 15rem;">
-                            <img class="card-img-top" src="/img/frost.jpg" alt="Card image cap">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/meat.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">C TO F</h5>
-                                <p class="card-text">STUFF</p>
-                                <a href="#" class="btn btn-primary">project link</a>
+                                <h5 class="card-title">SFW Meat Spin</h5>
+                                <p class="card-text">SFW version of the popular NSFW meatspin</p>
+                                <a href="https://applelock.github.io/sfwMeatSpin/" target="_blank" class="btn btn-warning">Website</a>
+                                <a href="https://github.com/AppleLock/sfwMeatSpin" target="_blank" class="btn btn-warning">Code</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card" style="width: 15rem;">
+                        <div class="card">
                             <img class="card-img-top" src="/img/barbell.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">5/3/1 Trainer</h5>
-                                <p class="card-text">STUFF</p>
-                                <a href="#" class="btn btn-primary">project link</a>
+                                <p class="card-text">Training calculator for the popular 5/3/1 routine</p>
+                                <a href="https://applelock.github.io/trainingM/" target="_blank" class="btn btn-warning">Website</a>
+                                <a href="https://github.com/AppleLock/trainingM" target ="_blank" class="btn btn-warning">Code</a>
                             </div>
                         </div>
                     </div>
                  </div>
-
-                 <div class="row">
-                        <div class="col-md-6">
-                            <div class="card" style="width: 15rem;">
-                                <img class="card-img-top" src="/img/frost.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">C TO F</h5>
-                                    <p class="card-text">STUFF</p>
-                                    <a href="#" class="btn btn-primary">project link</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card" style="width: 15rem;">
-                                <img class="card-img-top" src="/img/barbell.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">5/3/1 Trainer</h5>
-                                    <p class="card-text">STUFF</p>
-                                    <a href="#" class="btn btn-primary">project link</a>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
              </div>
-            </div>
             
             <section class="anchorPad" id="contact"></section>
             <div id="contact">
-
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Contact me!</h2>
+                        <!-- modify this form HTML and place wherever you want your form -->
+                        <form
+                        action="https://formspree.io/mvokjbao"
+                        method="POST">
+                        <div class="form-group">
+                            <label for="email">Your email:</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Your message:</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                          <button type="submit" id="submit" class="btn btn-warning">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -120,8 +125,8 @@
     <footer class="footer fixed-bottom">  
         <div class="container">
             <div class="row"> 
-                <div class="col-sm">
-                    <p>All rights reserved &COPY; MS 2019</p>
+                <div class="col-12">
+                    <p>All rights reserved &COPY; MS 2020</p>
                 </div>
             </div>
         </div>
@@ -135,6 +140,22 @@
         $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     });
+    </script>
+
+    <script>
+    function myFunction() {
+       
+        var isDark = document.getElementById("regular")
+        .getAttribute("href");
+        
+        if(isDark == "css/styles.css")
+        {
+            document.getElementById("regular").setAttribute("href", "css/darkstyle.css");
+        }
+        else{
+             document.getElementById("regular").setAttribute("href", "css/styles.css");
+        }
+    }
     </script>
 </body>
 </html>

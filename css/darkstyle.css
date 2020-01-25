@@ -7,7 +7,8 @@ body{
     z-index: 0; 
     margin-top: 50px;
     margin-bottom: 100px;
-    background: #fff;
+    background: rgb(41, 41, 41);
+    color:rgb(40, 143, 138);
 }
 
 .row{
@@ -18,11 +19,10 @@ body{
     margin: 0 auto;
     width: 80%;
     font-size: 2em;
+    color:rgb(40, 143, 138);
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-    color:black;
-}
+
 
 .anchor {
     display: block;
@@ -35,9 +35,8 @@ body{
     padding-top: 60px;
 }
 
-
 .navbar-light {
-    background-color: #F9C80e;
+    background-color:  rgb(40, 143, 138);
 }
 
 #sideNav .navbar-nav .nav-link{
@@ -56,43 +55,48 @@ body{
     font-weight: 800;
     padding: 0;
     letter-spacing: 5px;
-    background: #fff;
-    color: black;
+    background:  rgb(41, 41, 41);
+    color: rgb(40, 143, 138);
 }
 
 #projects .card{
     margin-top: 15px;
 }
 
+.card {
+    background: rgb(41, 41, 41);
+}
 .card .btn{
-    background-color: #F3D34A;
-    border-color: #F3D34A;
-    color: black;
+    background-color:  rgb(41, 41, 41);
+    border-color:  rgb(40, 143, 138);
+    color: rgb(40, 143, 138);
     font-weight:bold;
     text-transform: uppercase;
+    
 }
 
 #submit{
-    background-color: #F3D34A;
-    border-color: #F3D34A;
-    color: black;
+    background-color:  rgb(41, 41, 41);
+    border-color:  rgb(40, 143, 138);
+    color: rgb(40, 143, 138);
     font-weight:bold;
     text-transform: uppercase;
-}
-
-.btnD
-{
-    border-radius: 50%;
-    background-color: rgb(192, 190, 59);
-    box-shadow:none;
 }
 
 .footer 
 {
-    background-color: #F3D34A;
+    background-color: rgb(40, 143, 138);
+    color: rgb(41, 41, 41);
     font-weight: bold;
     font-size: 0.8em;
     padding-top: 20px;
     text-align: center;
 }
 
+
+
+.dark-mode {
+    background-color: rgb(41, 41, 41);
+    color: rgb(40, 143, 138);
+    
+  }
